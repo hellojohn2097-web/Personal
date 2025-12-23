@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Hamilton Lewis | Head of Client Partnerships</title>
+    <style>
+        :root {
+            --accent: #d32f2f; /* Bold Red to match the tenacity theme */
+            --bg: #121212;
+            --card-bg: #1e1e1e;
+            --text-main: #ffffff;
+            --text-sub: #b0b0b0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            color: var(--accent);
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -100px auto 50px;
+            padding: 20px;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-top: 5px solid var(--accent);
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: #2a2a2a;
+            padding: 10px 15px;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .job-title {
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .cta-btn {
+            background: var(--accent);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            background: #ff5252;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>John Hamilton Lewis</h1>
+        <div class="tagline">Head of Client Partnerships & Digital Strategist</div>
+        <a href="mailto:john@thrivelinelegacy.com" class="cta-btn">Contact for High-Value Growth</a>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Unwavering Tenacity</h2>
+            <p>I wake up every morning with an unwavering tenacity that drives me forward. No matter the obstacles or setbacks I encounter, my motivation remains unyielding. A never-say-die attitude courses through my veins, propelling me to push beyond limits and refuse to accept defeat.</p>
+            <p>Failure is simply not an option in my pursuit of success. There is a hunger within me, an insatiable desire to thrive in life. It fuels my every action, propels me towards my goals, and keeps me focused on achieving greatness.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Strategic Experience</h2>
+            
+            <div class="experience-item">
+                <div class="job-title">Hamilton & Forge | Owner</div>
+                <p>Full-scope digital marketing and B2B lead generation. Specialized in AI-powered client acquisition and automation to dominate markets.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Virgin Active | Head of Client Partnerships</div>
+                <p>Spearheaded lead generation initiatives, significantly increasing client acquisition and driving revenue growth through proactive communication.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Core Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-item">AI Automation</div>
+                <div class="skill-item">Web Scraping</div>
+                <div class="skill-item">B2B Lead Gen</div>
+                <div class="skill-item">Corporate Outreach</div>
+                <div class="skill-item">Client Partnerships</div>
+                <div class="skill-item">Account Management</div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Current Specializations</h2>
+            <ul>
+                <li><strong>Certified AI Specialist</strong> (1000XAI)</li>
+                <li><strong>Legacy Builder</strong> (Digital Growth Legacy)</li>
+                <li><strong>Certified Systeme Specialist</strong> (Systeme.io)</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>162 Buiten St. Johannesburg, 1739 South Africa | 0725871816</p>
+        <p>&copy; 2025 John Hamilton Lewis. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
